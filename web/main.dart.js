@@ -29977,11 +29977,11 @@ var $async$M5=A.u(function(a1,a2){if(a1===1)return A.v(a2,r)
 while(true)switch(s){case 0:if($.a5==null)A.aWV()
 $.a5.toString
 q=new A.abu()
-p=new A.v5("http://46.62.234.36:8000")
+p=new A.v5("https://api.tezdonatchi.uz")
 o=A.b([],t.p6)
 n=A.b([],t.H2)
 m=$.ao()
-l=new A.kY("http://46.62.234.36:8000",q,o,n,m)
+l=new A.kY("https://api.tezdonatchi.uz",q,o,n,m)
 s=2
 return A.n(l.uh(),$async$M5)
 case 2:k=new A.Am(new A.bG(null,t.b7),B.pt,q,l,m)
