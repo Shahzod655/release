@@ -106034,9 +106034,9 @@ break
 case 6:case 1:return A.r(q,r)
 case 2:return A.q(o.at(-1),r)}})
 return A.t($async$xL,r)},
-zC(a,b,c,d,e,f){return this.aGQ(a,b,c,d,e,f)},
-aGQ(a,b,c,d,e,a0){var s=0,r=A.u(t.H),q,p=2,o=[],n=[],m=this,l,k,j,i,h,g,f
-var $async$zC=A.p(function(a1,a2){if(a1===1){o.push(a2)
+zC(a,b,c,d,e,f,g){return this.aGQ(a,!0,c,d,e,f,g)},
+aGQ(a,b,c,d,e,a0,a1){var s=0,r=A.u(t.H),q,p=2,o=[],n=[],m=this,l,k,j,i,h,g,f
+var $async$zC=A.p(function(a2,a3){if(a2===1){o.push(a3)
 s=p}while(true)switch(s){case 0:if(m.e==null){s=1
 break}m.c=!0
 m.O()
@@ -106044,16 +106044,16 @@ m.d=null
 m.O()
 p=4
 l=A.C(t.N,t.z)
-J.dL(l,"name",a0)
+J.dL(l,"name",a1)
 if(a!=null)J.dL(l,"description",a)
-if(d!=null)J.dL(l,"icon_url",d)
-if(c!=null)J.dL(l,"icon_base64",c)
-if(e!=null)J.dL(l,"input_fields",e)
-i=A.br(m.a+"/api/admin/games/"+b,0,null)
+if(e!=null)J.dL(l,"icon_url",e)
+if(d!=null)J.dL(l,"icon_base64",d)
+J.dL(l,"input_fields",a0)
+i=A.br(m.a+"/api/admin/games/"+c,0,null)
 h=m.rR()
 s=7
 return A.l(A.vS(i,B.L.lN(l,null),h),$async$zC)
-case 7:k=a2
+case 7:k=a3
 if(k.b!==200){i=A.c3("\u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0438\u0433\u0440\u044b: "+J.fR(k))
 throw A.e(i)}s=8
 return A.l(m.iq(),$async$zC)
@@ -107577,7 +107577,7 @@ k=a0}else{a0=A.c3("Input fields JSON must be a list")
 throw A.e(a0)}}catch(a1){h=A.a3(a1)
 m.c.a7(t.q).f.cc(A.ed(null,null,null,null,null,B.t,null,A.U("Invalid input fields JSON: "+A.j(h),null,null,null,null,null,null,null),null,B.X,null,null,null,null,null,null,null,null,null))
 s=1
-break}else k=A.b([],t.H7)
+break}else k=null
 m.J(new A.aFW(m))
 p=3
 a0=m.a
@@ -107598,7 +107598,7 @@ if(b===B.nX&&m.x!=null){b=m.x
 b.toString
 b=B.iS.gy9().d7(b)}else b=null
 s=9
-return A.l(a0.zC(c,e,b,a,k,l),$async$wi)
+return A.l(a0.zC(c,!0,e,b,a,k,l),$async$wi)
 case 9:s=7
 break
 case 8:g=null
