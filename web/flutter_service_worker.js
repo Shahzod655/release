@@ -5,7 +5,6 @@ const CACHE_NAME = 'flutter-app-cache';
 
 const RESOURCES = {"assets/AssetManifest.bin": "d593b902097193be9c48e878cdf62dde",
 "assets/AssetManifest.bin.json": "3f5d3a608ce5ddaad4062146da8caa87",
-"assets/AssetManifest.json": "baf4dd953d3871a1644633a6a4ad17db",
 "assets/assets/fonts/Lemon-Milk-Pro-Medium.ttf": "934706c0bc7955a396bb261d0593b838",
 "assets/assets/icons/logo.png": "0cf9b3006a6d2062bb3414368a0385ed",
 "assets/assets/images/background.png": "dc7e512aed17be61e6d36b8b25742385",
@@ -32,14 +31,14 @@ const RESOURCES = {"assets/AssetManifest.bin": "d593b902097193be9c48e878cdf62dde
 "canvaskit/skwasm_heavy.wasm": "b0be7910760d205ea4e011458df6ee01",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "24bc71911b75b5f8135c949e27a2984e",
-"flutter_bootstrap.js": "ad9975f8b381569e914f353cd2e260b5",
+"flutter_bootstrap.js": "c7018277106f674eda80abefb34aa1bd",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "index.html": "d1753d7bb6ab24668b32830fbed3d358",
 "/": "d1753d7bb6ab24668b32830fbed3d358",
-"main.dart.js": "0934cc20214ca3cd1a89f4057d378e7d",
+"main.dart.js": "624cee246e801c8ce648e9957af7d50b",
 "manifest.json": "f2bd8b8004b36a0874beb88a53ab8dc0",
 "version.json": "3bfb048d63f1a1e4b4c75ccbdd4a86ff"};
 // The application shell files that are downloaded before a service worker can
