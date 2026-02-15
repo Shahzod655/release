@@ -32124,28 +32124,29 @@ aVv:function aVv(){},
 yo:function yo(a,b,c){this.a=a
 this.b=b
 this.c=c},
-b_g(){var s=0,r=A.u(t.Qw),q,p,o,n,m,l,k
+b_g(){var s=0,r=A.u(t.Qw),q,p,o,n,m,l,k,j
 var $async$b_g=A.p(function(a,b){if(a===1)return A.q(b,r)
-for(;;)switch(s){case 0:k=A.bfF("file")
-k.accept="image/*"
-k.multiple=!1
-p=k.style
+for(;;)switch(s){case 0:j=A.bfF("file")
+j.accept="image/*"
+j.multiple=!1
+p=j.style
 p.position="fixed"
-p=k.style
+p=j.style
 p.left="-10000px"
-p=k.style
+p=j.style
 p.top="-10000px"
-k.setAttribute("capture","environment")
+o=window.navigator.userAgent.toLowerCase()
+if(!(B.c.p(o,"iphone")||B.c.p(o,"ipad")||B.c.p(o,"ipod")))j.setAttribute("capture","environment")
 p=document.body
-if(p!=null)p.appendChild(k).toString
+if(p!=null)p.appendChild(j).toString
 p=new A.ag($.ar,t.gf)
-o=new A.bg(p,t.OZ)
-n=new A.aVU(k)
-m=t.rE
-l=t.a
-new A.A5(k,"change",!1,m).gab(0).bF(new A.aVV(k,n,o),l)
-new A.A5(k,"error",!1,m).gab(0).bF(new A.aVW(n,o),l)
-k.click()
+n=new A.bg(p,t.OZ)
+m=new A.aVU(j)
+l=t.rE
+k=t.a
+new A.A5(j,"change",!1,l).gab(0).bF(new A.aVV(j,m,n),k)
+new A.A5(j,"error",!1,l).gab(0).bF(new A.aVW(m,n),k)
+j.click()
 q=p
 s=1
 break
