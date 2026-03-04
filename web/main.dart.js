@@ -113508,7 +113508,7 @@ I(a){var s,r=this,q=null,p=A.bQ(a,B.af,t.J),o=A.O(p.gQO(),q,q,q,q,B.ale,q,q),n=A
 if(r.f)p=B.QU
 else{s=r.e.length
 if(s===0)p=A.e1(new A.aM(B.cI,A.O(l.a.a.length===0?p.ga5J():p.ga5M(),q,q,q,q,B.agV,B.b_,q),q),q,q)
-else p=A.U9(!0,960,q,B.afq,new A.aIA(r),s,B.ui)}return A.jr(q,B.dU,new A.kT("assets/images/background.png",A.hU(!0,new A.aM(B.fy,A.aL(A.b([B.bz,o,B.at,n,B.at,m,B.bz,new A.a9R(l,q),B.bz,A.cf(p,1)],t.p),B.n,B.i,B.l),q),B.a4,!0),q),q)}}
+else p=A.U9(!0,960,q,B.afr,new A.aIA(r),s,B.ui)}return A.jr(q,B.dU,new A.kT("assets/images/background.png",A.hU(!0,new A.aM(B.fy,A.aL(A.b([B.bz,o,B.at,n,B.at,m,B.bz,new A.a9R(l,q),B.bz,A.cf(p,1)],t.p),B.n,B.i,B.l),q),B.a4,!0),q),q)}}
 A.aIw.prototype={
 $0(){var s=this.a
 s.e=s.d=this.b
@@ -115135,7 +115135,7 @@ I(a){var s,r=null,q=A.BA(a),p=this.c.length,o=p===0?r:B.f.eb(this.d,0,p-1)
 p=A.O(q?"\u0412\u044b\u0431\u043e\u0440 \u043f\u043e\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044f":"To'ldirish tanlash",r,r,r,r,B.j_,r,r)
 s=t.p
 p=A.b2g(A.b([B.GZ],s),B.z,0,B.e,p)
-return A.jr(p,B.dU,new A.kT("assets/images/background.png",A.hU(!0,new A.aM(B.Ur,A.aL(A.b([A.O(q?"\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0441\u043f\u043e\u0441\u043e\u0431 \u043f\u043e\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044f":"To'ldirish usulini tanlang",r,r,r,r,B.ajd,r,r),B.aA,A.cf(A.U9(!0,r,r,B.afr,new A.aTW(this,o,q),4,r),1)],s),B.n,B.i,B.l),r),B.a4,!1),r),r)}}
+return A.jr(p,B.dU,new A.kT("assets/images/background.png",A.hU(!0,new A.aM(B.Ur,A.aL(A.b([A.O(q?"\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0441\u043f\u043e\u0441\u043e\u0431 \u043f\u043e\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044f":"To'ldirish usulini tanlang",r,r,r,r,B.ajd,r,r),B.aA,A.cf(A.U9(!0,r,r,B.afq,new A.aTW(this,o,q),4,r),1)],s),B.n,B.i,B.l),r),B.a4,!1),r),r)}}
 A.aTW.prototype={
 $2(a,b){var s,r,q,p,o,n,m=null,l=B.oQ[b]
 if(l.a===B.cT)s=m
@@ -124346,9 +124346,9 @@ B.at=new A.ck(null,8,null,null)
 B.afo=new A.ck(24,24,B.rY,null)
 B.afp=new A.HZ(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.LL=new A.a_d(0,0,0,0,0,0,!1,!1,null,0)
+B.afq=new A.I_(0.84)
 B.LM=new A.I_(0.86)
-B.afq=new A.I_(0.95)
-B.afr=new A.I_(0.8)
+B.afr=new A.I_(0.95)
 B.qb=new A.ayR(0,"firstIsTop")
 B.afs=new A.a_l(0,"disabled")
 B.aft=new A.a_l(1,"enabled")
